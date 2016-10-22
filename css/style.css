@@ -1,0 +1,247 @@
+/*
+Theme Name: JBSS
+Theme URI: http://stucel.com
+Author: Sabekti Anggara
+Author URI: http://stucel.com
+Description: Jangan Buang Sampah Sembarangan Project
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+*/
+html {
+	height: 100%;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	background-color: #fff;
+	font-size: 14px;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 35px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+section#home {
+	background: #000 url(../img/kdm-bg.jpg) top center no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 42px 0 95px;
+}
+
+#home .container {
+	vertical-align: middle;
+	padding-top: 0px;
+}
+
+#home .brand-heading {
+	font-size: 40px;
+}
+
+#home a {
+	color: #fff;
+	font-size: 45px;
+	position: absolute;
+	left: 49%;
+	bottom: 70px;
+}
+
+.brand-heading span {
+	float: left;
+	font-size: 42px;
+}
+
+header .logo {
+	margin: 0 0.7em;
+}
+
+.top-bar .right-top-bar {
+	vertical-align: middle;
+	height: 100%;
+	padding-top: 24px;
+	font-style: italic;
+	color: #fff;
+}
+
+.main-header {
+	margin: 60px auto;
+	color: #fff;
+}
+
+.main-header h2 {
+	text-align: left;
+	text-transform: none;
+	font-size: 49px;
+}
+
+.main-header p {
+	text-align: left;
+	font-size: 35px;
+}
+
+.form-daftar {
+	background-color: transparent;
+	padding: 34px;
+	color: #000;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	box-shadow: 0 0 10px rgba(52, 22, 22, 0.3);
+	background: rgba(244, 244, 244, 0.7);
+}
+
+.form-title h3 {
+	text-transform: none;
+	letter-spacing: 3px;
+}
+
+.form-control {
+	border-radius: 0px;
+	border: 2px solid #b7b7b7;
+	padding: 5px 12px;
+}
+
+#about {
+	padding-top: 140px;
+	margin-bottom: 100px;
+}
+
+/*
+///////////////////////////////////////////////
+/
+/
+Photo Slider
+/
+/
+//////////////////////////////////////////////
+*/
+#photoslider .carousel-indicators {
+	left: 50%;
+	bottom: -44px;
+}
+
+#photoslider .carousel-indicators .active {
+	background-color: #000;
+}
+
+#photoslider .carousel-indicators li {
+	border: 1px solid #cdcdcd;
+}
+
+#photoslider .carousel-arrow a.carousel-control {
+	opacity: 1;
+	font-size: 30px;
+	height: inherit;
+	width: inherit;
+	background: none;
+	text-shadow: none;
+	position: inherit;
+}
+
+#photoslider .carousel-arrow a i {
+	top: 50%;
+	opacity: 0.6;
+	background-color: #000;
+	margin-top: -18px;
+	padding: 2px 12px;
+	position: absolute;
+	z-index: 4;
+}
+
+#photoslider .carousel-arrow a.left i {
+	left: 0;
+}
+
+#photoslider .carousel-arrow a.right i {
+	right: 0;
+}
+
+#photoslider .item img {
+	min-width: 540px;
+	max-height: 352px;
+}
+
+
+h3.title {
+	font-family: 'Ropa Sans', sans-serif;
+	text-transform: none;
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+
+#about p {
+	color: #585858;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+#about ul.list-unstyled li {
+	font-size: 16px;
+	color: #585858;
+	padding-left: 22px;
+	text-indent: -9px;
+	margin-bottom: 14px;
+}
+
+#about ul.list-unstyled li i {
+	color: #f15e22;
+}
+
+.wrapper > nav {
+	position: fixed;
+	z-index: 9999;
+	right: 100px;
+	top: 50%;
+	width: 26px;
+	transorm : translate-Y (-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+.wrapper > nav a {
+	display: block;
+	position: relative;
+	z-index: 9999;
+	color: transparent;
+	width: 26px;
+	height: 26px;
+	outline: none;
+	margin: 25px 0;
+	border-radius: 50%;
+	border: 4px solid #fff;
+}
+
+.no-touch .wrapper > nav a:hover {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.sidenav ul {
+	list-style: none;
+}
+
+.sidenav ul .current a {
+	background-color: #fff;
+}
+
+@media(min-width:767px) {
+
+	
+	#home .brand-heading {
+		font-size: 80px;
+		padding: 30px 283px;
+	}
+
+}
